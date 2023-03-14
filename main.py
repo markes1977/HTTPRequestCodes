@@ -15,4 +15,4 @@ for line in Lines:
         response = requests.get("http://www." + line.strip())
         print("http://www." + line.strip(), response.status_code)
     else:
-        print(line.strip() + "is malformed.")
+        print(line.strip() + " is malformed.")
